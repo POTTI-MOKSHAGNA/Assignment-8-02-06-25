@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+</head>
+<body>
+    <script>
+        let a = prompt("Enter your marks(0-100): ")
+        a = parseInt(a)
+        let result;
+        if (a > 90){
+            a = 'Grade: A'
+        }else if(a > 80){
+            a = 'Grade: B'
+        }else if(a > 70){
+            a = 'Grade: C'
+        }else if(a > 60){
+            a = 'Grade: D'
+        }else if(a > 50){
+            a = 'Grade: E'
+        }else{
+            a = 'Grade: F'
+        }
+        document.writeln(a);
+    </script>
+</body>
+</html>
